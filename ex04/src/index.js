@@ -4,6 +4,10 @@ function sumFibonacci(num) {
     var currNum = 1;
     var result = 0;
 
+    if (num === 1) {
+        return num;
+    }
+
     while (currNum <= num) {
         if (currNum % 2 !== 0) {
             result += currNum;
