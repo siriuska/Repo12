@@ -14,8 +14,8 @@ var myPetsArray = [
 ]
 
 function myPetsFunction(pets) {
-    var myPet = myPetsArray[1].name;
-    return myPet;
+    pets = myPetsArray[1].name;
+    return pets;
 }
 
 console.log(myPetsFunction(myPetsArray));
